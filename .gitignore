@@ -41,3 +41,7 @@ jspm_packages
 
 # Config file
 config/
+
+# Rsync script
+rsync.sh
+
