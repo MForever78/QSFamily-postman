@@ -58,7 +58,7 @@ function remind() {
                                   from: mailConfig.from,
                                   to: student.studentId + "@zju.edu.cn",
                                   subject: "轻松家园作业提醒",
-                                  text: student.name + "：\n" + assignment.reference.title + "明天就要截止了，请及时提交"
+                                  text: student.name + "：\n" + assignment.reference.title + "明天就是最后期限了，请及时提交"
                                 }, function(err, info) {
                                     if (err) console.log(err.stack);
                                     var now = new Date();
